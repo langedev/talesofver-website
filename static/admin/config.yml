@@ -3,9 +3,10 @@ backend:
   branch: main
 publish_mode: editorial_workflow
 collections:
-  - name: game_docs
-    label: game_docs
-    folder: src/routes/tov/gamedocs
+  - name: gamedocs
+    label: gamedocs
+    folder: src/routes/json/gamedocs
+    format: json
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
