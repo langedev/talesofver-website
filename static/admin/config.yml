@@ -14,17 +14,18 @@ collections:
   - name: doc_navigations
     label: Document Navigations
     folder: static/navs
+    format: json
     create: true
     fields:
       - label: Categories
-        label_singular: Add a new category
+        label_singular: a new category
         name: categories
         widget: list
         allow_add: true
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - label: Articles
-            label_singular: Add an article route
+            label_singular: an article route
             name: articles
             widget: list
             allow_add: true
