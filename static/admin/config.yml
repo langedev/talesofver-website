@@ -1,0 +1,13 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+collections:
+  - name: game_docs
+    label: game_docs
+    folder: src/routes/tov/gamedocs
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Body", name: "body", widget: "markdown"}
