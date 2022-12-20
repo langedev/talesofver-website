@@ -3,10 +3,9 @@
   import Article from "./Article.svelte";
 
   export let data;
-  print(data)
 </script>
 
 <main class="max-w-7xl mx-auto flex">
   <SideNav index="games" current={data.article}/>
-  <Article slug={data.article} />
+  <Article title={data.title} content={data.content} />
 </main>

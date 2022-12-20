@@ -1,6 +1,6 @@
+import type { PageLoad } from "./$types";
 import { redirect } from '@sveltejs/kit';
 
-/** @type {import('./$types').LayoutServerLoad} */
-export function load() {
+export const load: PageLoad = async ({params}) => {
   throw redirect(307, 'gamedocs/getting-started');
 }
