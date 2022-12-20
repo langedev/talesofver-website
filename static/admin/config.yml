@@ -27,10 +27,13 @@ collections:
             name: articles
             widget: list
             allow_add: true
-            field:
-              - collection: game_docs
-              - value_field: title
-              - search_fields: title
+            fields:
+              - label: Article
+                name: article
+                widget: relation
+                collection: game_docs
+                value_field: title
+                search_fields: [title]
 
 
 media_folder: "static/uploads"
