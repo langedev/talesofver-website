@@ -14,6 +14,7 @@ collections:
   - name: doc_navigations
     label: Document Navigations
     folder: static/navs
+    create: true
     fields:
       - label: Categories
         label_singular: Add a new category
