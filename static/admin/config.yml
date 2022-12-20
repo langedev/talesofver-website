@@ -4,12 +4,34 @@ backend:
 publish_mode: editorial_workflow
 collections:
   - name: game_docs
-    label: game_docs
+    label: Game Docs
     folder: src/routes/tov/gamedocs
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: doc_navigations
+    label: Document Navigations
+    folder: static/navs
+    fields:
+      - label: Categories
+        label_singular: Add a new category
+        name: categories
+        widget: list
+        allow_add: true
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - label: Articles
+            label_singular: Add an article route
+            name: articles
+            widget: list
+            allow_add: true
+            field:
+              - collection: game_docs
+              - value_field: title
+              - search_fields: title
+
+
 media_folder: "static/uploads"
 public_folder: "/uploads"
