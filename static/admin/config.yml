@@ -15,7 +15,6 @@ collections:
     label: Document Navigations
     folder: static/navs
     format: json
-    create: true
     fields:
       - label: Categories
         label_singular: a new category
