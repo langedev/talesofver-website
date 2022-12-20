@@ -28,7 +28,10 @@ collections:
             widget: list
             allow_add: true
             fields:
-              - collection: game_docs
+              - label: Article
+                name: article
+                widget: relation
+                collection: game_docs
                 value_field: title
                 search_fields: title
 
