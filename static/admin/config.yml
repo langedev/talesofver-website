@@ -27,7 +27,7 @@ collections:
             name: articles
             widget: list
             allow_add: true
-            field:
+            fields:
               - collection: game_docs
                 value_field: title
                 search_fields: title
