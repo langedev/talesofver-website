@@ -7,8 +7,9 @@ collections:
     label: Game Docs
     folder: src/routes/tov/gamedocs
     create: true
+    identifier_field: identifier
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Identifier", name: "identifier", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: doc_navigations
@@ -29,12 +30,13 @@ collections:
             widget: list
             allow_add: true
             fields:
+              - {label: "Title", name: "title", widget: "string"}
               - label: Article
-                name: article
+                name: article_identifier
                 widget: relation
                 collection: game_docs
-                value_field: title
-                search_fields: [title]
+                value_field: identifier
+                search_fields: [title, identifier]
 
 
 media_folder: "static/uploads"

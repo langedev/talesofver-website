@@ -4,7 +4,8 @@
       "title": "Test Category",
       "articles": [
         {
-          "article": "Test Gamedocs"
+          "title": "Test Gamedocs",
+          "article_identifier": "test-gamedocs"
         }
       ]
     }

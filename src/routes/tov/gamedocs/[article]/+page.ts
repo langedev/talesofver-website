@@ -6,15 +6,15 @@ export const load: PageLoad = async ({params}) => {
     const post = await import(`../${params.article}.md`)
     const nav = await import(`$lib/navs/gamedocs.json`)
 
-    const { title } = post.metadata
+    const { article_identifier } = post.metadata
     const content = post.default
 
     return {
       article: {
         content,
-        title,
+        article_identifier,
       },
-      nav
+      categories: nav.categories,
     }
   } catch (e) {
     throw redirect(307, '/tov/gamedocs/');
