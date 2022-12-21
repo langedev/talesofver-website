@@ -1,5 +1,6 @@
 ---
 title: "Staying Alive "
+identifier: staying-alive
 layout: blog
 ---
 ## Stamina
