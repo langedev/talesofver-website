@@ -13,7 +13,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: doc_navigations
     label: Document Navigations
-    folder: static/navs
+    folder: src/lib/navs
     format: json
     fields:
       - label: Categories
