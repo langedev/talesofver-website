@@ -5,7 +5,7 @@ layout: blog
 ---
 ## Stamina
 
-Is a representation of your current health, energy, and mental or emotional ability to continue to act. It is most commonly reduced by physical, mental, or spiritual DMG, but may also fall due to physical, mental, or spiritual exhaustion or duress. 
+Is a representation of your current health, energy, and mental or emotional ability to continue to act. It is most commonly reduced by physical, mental, or spiritual ~~DMG~~*damage*, but may also fall due to physical, mental, or spiritual exhaustion or duress. 
 
 Your maximum Stamina is determined first by your race, and is increased by rolling your Stamina Die (which is also granted by your race but may be modified by Advancements) and adding the result to your maximum Stamina. A Stamina Die Roll may be prompted by Advancements or reaching certain Advancement tiers, and also occurs when you first create a character.
 
@@ -15,15 +15,15 @@ All characters have three different Guards, attacks made against a target act as
 
 The three Guards are as follows:
 
-* Mind Guard, targeted by deception, stealth, and mental attacks.
+* Mind Guard, targeted by deception, stealth, ~~and mental attacks.~~*, mental attacks, and so on.*
 * Body Guard, targeted by physical harm, poison, disease, and so on.
-* Spirit Guard, targeted by persuasion, emotions, and spiritual attacks.
+* Spirit Guard, targeted by persuasion, emotions, ~~and spiritual attacks.~~*, spiritual attacks, and so on.*
 
 *While all characters have some amount of each Guard, all characters have significant weaknesses to be targeted and strengths to be avoided across their three Guards.*
 
 ## Impacts
 
-When you reach 0 Stamina, you suffer a dramatic Impact. Additional DMG dealt past 0 Stamina has no effect and is ignored.
+When you reach 0 Stamina, you suffer a dramatic *["Is dramatic okay to use here? Sounds like a type of impact. 'dramatic impact.' vs 'impact.'"]* Impact. Additional ~~DMG~~damage dealt past 0 Stamina has no effect and is ignored.
 
 When you suffer an Impact, the following happens:
 
