@@ -1,13 +1,3 @@
 {
-  "categories": [
-    {
-      "title": "Test Category",
-      "articles": [
-        {
-          "title": "Test Gamedocs",
-          "article_identifier": "test-gamedocs"
-        }
-      ]
-    }
-  ]
+  "categories": []
 }
