@@ -1,3 +1,21 @@
 {
-  "categories": []
+  "categories": [
+    {
+      "title": "Introduction"
+    },
+    {
+      "title": "Creating A Character",
+      "articles": []
+    },
+    {
+      "title": "Gameplay",
+      "articles": []
+    },
+    {
+      "title": "\"Power Systems\""
+    },
+    {
+      "title": "Essences"
+    }
+  ]
 }
