@@ -22,6 +22,18 @@ Essential Essences is duplicated to two places: essences-explained and essences-
 
 * Brief summary of Essential Essences
 
+### Colere
+
+Colere is the essence of Cultivation and Aid.
+ 
+When empowering some basic actions with Colere, it will cause the following effects,
+
+* 
+
+When empowering more complex actions with Colere the following effects have been observed, though they are not guaranteed.
+
+* 
+
 ### Motus
 
 Motus is the essence of movement, and motion. Motus enhances and creates motion in an action. 
@@ -36,6 +48,3 @@ When empowering more complex actions with Motus the following effects have been 
 * As the doors were closing Garndark was able to empower their bow shot with Motus to squeeze their arrow through the doorway and kill their opponent.
 * As he was just about to fall off a cliff, Durin II created a Fire Spell out of Ignis and Motus to jet himself to safety.
 * While trying to steal a goblet that had caught his eye from the top of a bookshelf, Shpeckle forcefully pushed a book back into the shelf. Empowering the action with Motus the goblet perfectly fell into Shpeckles backpack just before the shopkeep turned around.
-
-### Colere
-
