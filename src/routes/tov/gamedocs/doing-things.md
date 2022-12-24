@@ -5,6 +5,18 @@ layout: blog
 ---
 ## Checks
 
+<!-- 
+Like this section for the most part, but I want to stress more the criteria for deciding whether or not to roll, and how to go from that.
+
+It says in here "In any case, if a Check is failed then one of two things happens. One, the character fails outright and nothing happens"
+
+This should only happen if the task isn't retriable. For instance the character with all the time in the world to pick a lock should either not have to roll, or failing the roll should lead to the lock breaking, or something similar.
+
+Additionally I think the language can probably be cleaned up? I don't think we need to destinguish between player characters and non-player characters here besides a perhaps brief aside:
+
+"When a character is attempting a check, they first decide what they are going to do. A player character must communicate this to the Game Master. The Game Master then determines a Difficulty Rating for the Check..."
+-->
+
 While a healthy character doesn’t have to roll to walk across a room, talk casually with a friend, or open a door, whenever they attempt something with a noteworthy chance of failure a Check must be performed, and passed. 
 
 When a player character is attempting a Check, the player first describes what their character is going to do, and then the Game Master determines a Difficulty Rating for the Check. After this the player rolls a d20, adds one Attribute chosen by the Game Master, and any Bonuses granted by their Equipment or Advancements, then any additional modifiers called by the Game Master. If their total is higher than or equal to the Difficulty Rating set by the Game Master they succeed.
@@ -21,7 +33,7 @@ In any case, if a Check is failed then one of two things happens. One, the chara
 
 While most Checks are performed and resolved in relative normalcy, there are moments in which the universe visits upon a character sudden and unexpected glory, or absolute distance and contempt. A Critical roll happens when the d20 rolled in a Check comes up as a 20 or a 1, a Critical Success on a 20, a Critical failure on a 1. 
 
-A character who rolls a Critical Success will always succeed their Check, or at least end up in a much better position than when they started. An Check made to break the world in half which is a Critical Success will probably not result in the world being broken in half, but will always end with the would be world-shatterer being placed in a position far and away better than where they started. 
+A character who rolls a Critical Success will always succeed their Check, or at least end up in a much better position than when they started. A Check made to break the world in half which is a Critical Success will probably not result in the world being broken in half, but will always end with the would be world-shatterer being placed in a position far and away better than where they started. 
 
 A character who rolls a Critical Failure, however, will always dramatically fail their Check and end in a far worse position than they began, no matter how simple or menial it was. If a character performs a Check to drink a glass of water, that glass is probably either going up their nostril or down their throat.
 
@@ -32,6 +44,14 @@ Sometimes when a Check is performed, it is done with Advantage or Disadvantage. 
 When a Check is performed with Advantage, the character rolls two d20’s, and takes the higher of the two. 
 
 When a Check is performed with Disadvantage, the character rolls two d20’s, and takes the lower of the two. 
+
+<!-- 
+I'm not opposed to this conception of Advantage/Disadvantage, but to clarify the form I was thinking of has the following properties:
+If rolling with advantage and you roll a 1 and 20 you take the one.
+
+It makes advantage worse and disadvantage better.
+I like what you outlined better, but it is worth noting that characters with absurd crit success thresholds and advantage will be guaranteeing critical success practically.
+-->
 
 If a Critical Success or Failure is rolled on either die, in either case, then that Critical result is always taken over a normal result. If both a Critical Success and Failure are rolled at the same time, then the Game Master checks the dice to ensure they aren’t weighted, and the character takes the Success if they have Advantage, and the Failure if they have Disadvantage.
 
