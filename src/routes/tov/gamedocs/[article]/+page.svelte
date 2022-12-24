@@ -16,5 +16,5 @@
 
 <main class="max-w-7xl mx-auto flex">
   <SideNav current={data.article.article_identifier} nav={data.categories}/>
-  <Article title={title} content={data.article.content} />
+  <Article title={title} subtitle={data.article.subtitle} content={data.article.content} />
 </main>

@@ -9,7 +9,8 @@ collections:
     create: true
     identifier_field: identifier
     fields:
-      - {label: "Identifier", name: "identifier", widget: "string"}
+      - {label: "Identifier (filename)", name: "identifier", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: doc_navigations
