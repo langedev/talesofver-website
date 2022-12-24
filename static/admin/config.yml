@@ -6,6 +6,7 @@ collections:
   - name: game_docs
     label: Game Docs
     folder: src/routes/tov/gamedocs
+    preview_path: tov/gamedocs/{{filename}}
     create: true
     identifier_field: identifier
     fields:
@@ -42,3 +43,6 @@ collections:
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
+
+site_url: https://verrpg.com
+display_url: https://verrpg.com
