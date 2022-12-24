@@ -3,8 +3,6 @@ identifier: staying-alive
 subtitle: Learn about Stamina, Guards, and how to not die so quickly
 layout: blog
 ---
-# Staying Alive
-
 ## Stamina
 Is a representation of a character’s current health, energy, and ability to move and act of their own free will. It’s most commonly reduced by physical, mental, or spiritual damage, but may also fall due to exhaustion and duress. 
 
