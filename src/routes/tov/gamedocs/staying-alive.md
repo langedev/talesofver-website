@@ -43,6 +43,7 @@ An Impact Event is an event which drastically alters the current state of an Enc
 
 
 ## Death Checks & Marks
-When a character performs a Death Check they roll a d2, and on a 1 gain a Death Mark. If all of the character’s Guards are Broken while they automatically fail all Death Checks. A character who has two Death Marks at the same time dies. Death Marks persist even after the current Encounter, but may be healed by resting, or some powerful healing effects.
+When a character performs a Death Check they roll a d2, and on a 1 gain a Death Mark. If all of a character’s Guards are Broken they automatically fail all Death Checks. A character who has two Death Marks at the same time dies. Death Marks persist even after the current Encounter, but may be healed by resting, or some powerful healing effects.
+
 Most enemies and NPCs you'll face suffer Impacts identically to you. Once you reduce them to 0 Stamina they also suffer an Impact Event and a Guard Break, but will automatically fail any Death Check they perform. Most enemies and NPCs reliably die upon taking their second Impact.
 
