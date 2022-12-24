@@ -4,7 +4,7 @@
 </script>
 
 {#if nav}
-  <nav class="hidden lg:block px-4 whitespace-nowrap w-64 border-r-2 border-stone-700">
+  <nav class="hidden lg:block px-4 whitespace-nowrap w-64 border-r-2 border-stone-700 text-lg">
     <ul>
       {#each nav as category}
         <h5 class="mb-1 font-bold text-stone-300">{category.title}</h5>
