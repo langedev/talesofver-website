@@ -88,7 +88,9 @@ When empowering some basic actions with Carnifex, it will cause the following ef
 
 When empowering more complex actions with Carnifex the following effects have been observed, though they are not guaranteed.
 
-* 
+* Skyhawk saw the doors closing, he was fast, but not that fast. He took a swig from his flask and braced for impact, empowering his slam into the door with Carnifex. The two huge doors flew off their hinges as he rammed through them with ease.
+* Visible horror appeared on his face as he realized the dark alley was a dead end. He turned around to see Amethyst walking towards him, scythe in hand. She offered a prayer to her goddess, empowering it with Carnifex. A scream could be heard as the shadows began tearing apart the man limb from limb.
+* Margaret could see the poor gnome was losing the will to fight. She crafted a particularly vile joke and spoke it to him, imbuing it with Carnifex. As the words graced his ears he cringed, dropping to his knees from the pain.
 
 ### Colere
 
