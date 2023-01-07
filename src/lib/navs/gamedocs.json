@@ -18,7 +18,11 @@
       "articles": [
         {
           "article_identifier": "staying-alive",
-          "title": "Staying Alive - Stamina, Guards, and Death"
+          "title": "Stamina, Guards, and Death"
+        },
+        {
+          "title": "Essences",
+          "article_identifier": "essences-explained"
         }
       ]
     },
