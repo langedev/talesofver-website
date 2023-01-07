@@ -1,13 +1,26 @@
 {
   "categories": [
     {
-      "title": "Test Category",
+      "title": "Introduction"
+    },
+    {
+      "title": "Creating A Character",
+      "articles": []
+    },
+    {
+      "title": "Gameplay",
       "articles": [
         {
-          "title": "Test Gamedocs",
-          "article_identifier": "test-gamedocs"
+          "article_identifier": "staying-alive",
+          "title": "Staying Alive - Stamina, Guards, and Death"
         }
       ]
+    },
+    {
+      "title": "\"Power Systems\""
+    },
+    {
+      "title": "Essences"
     }
   ]
 }
