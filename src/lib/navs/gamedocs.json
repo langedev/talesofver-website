@@ -1,7 +1,13 @@
 {
   "categories": [
     {
-      "title": "Introduction"
+      "title": "Introduction",
+      "articles": [
+        {
+          "article_identifier": "getting-started",
+          "title": "Getting Started"
+        }
+      ]
     },
     {
       "title": "Creating A Character",
