@@ -6,10 +6,12 @@
   let title = ""
 
   for (const i in data.categories) {
-    const category = data.categories[i]
-    let article = category.articles.find(article => article.article_identifier === data.article.article_identifier)
+    const category = data.categories[i];
+    if(!category.articles) continue;
+    let article = category.articles.find(article => article.article_identifier === data.article.article_identifier);
     if(article) {
-      title = article.title
+      title = article.title;
+      break;
     }
   }
 </script>

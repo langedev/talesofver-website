@@ -4,11 +4,12 @@
 </script>
 
 {#if nav}
-  <nav class="hidden lg:block px-4 whitespace-nowrap w-64 border-r-2 border-stone-700 text-lg">
+  <nav class="hidden lg:block px-4 whitespace-nowrap w-80 border-r-2 border-stone-700 text-sm">
     <ul>
       {#each nav as category}
-        <h5 class="mb-1 font-bold text-stone-300">{category.title}</h5>
+        <h5 class="mb-1 font-bold text-stone-300 mt-4">{category.title}</h5>
         <ul>
+        {#if category.articles}
           {#each category.articles as article}
             <li>
               {#if current === article.article_identifier}
@@ -25,6 +26,7 @@
               {/if}
             </li>
           {/each}
+        {/if}
         </ul>
       {/each}
     </ul>

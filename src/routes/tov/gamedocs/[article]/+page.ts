@@ -6,13 +6,13 @@ export const load: PageLoad = async ({params}) => {
     const post = await import(`../${params.article}.md`)
     const nav = await import(`$lib/navs/gamedocs.json`)
 
-    const { article_identifier, subtitle } = post.metadata
+    const { identifier, subtitle } = post.metadata
     const content = post.default
 
     return {
       article: {
         content,
-        article_identifier,
+        article_identifier: identifier,
         subtitle
       },
       categories: nav.categories,
