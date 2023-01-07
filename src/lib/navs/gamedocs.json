@@ -9,7 +9,12 @@
     },
     {
       "title": "Gameplay",
-      "articles": []
+      "articles": [
+        {
+          "article_identifier": "staying-alive",
+          "title": "Staying Alive - Stamina, Guards, and Death"
+        }
+      ]
     },
     {
       "title": "\"Power Systems\""
